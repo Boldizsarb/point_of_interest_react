@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <!--For jqeury-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/scripts/indextwo.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/style/index.css">
+   
+   
+</head>
+<body>
+    <header>
+       <h1> Wheelsify</h1> 
+       <div id="scroll">
+        <%- include('particles/schrolldown.ejs')%>
+       </div>
+    </header>
+    
+    <div id="navbar">
+        <%- include('particles/navbar.ejs')%>
+    </div>
+    
+    <div id="contactform">
+        <%- include('particles/contactquick.ejs')%>
+    </div>
+    
+    <div id="inbox">
+        <img id="image" src="pictures/whiteinbox.jpg" alt="">
+        
+    </div>
+    <!-- Content below-->
+    <div>
+        <h2>Most important ingridient is you!</h2>
+    </div>
+    <div id="imgrid">
+        
+        <img src="pictures/newcar2.jpg" alt="Pictures of cars" class="image3" id="newcar1">
+
+        <img src="pictures/learner.jpeg" alt="Pictures of cars" class="image3" id="learner1">
+
+        <img src="pictures/newcar.jpg" alt="Pictures of cars" class="image3">
+        <img src="pictures/newcar.jpg" alt="Pictures of cars" class="image3">
+        <img src="pictures/newcar.jpg" alt="Pictures of cars" class="image3">
+    </div>
+    <div id="output2">
+        <div id="newcar">
+            <%- include('particles/findnewcar.ejs') %>
+        </div>
+        <div id="learner">
+            <%- include('particles/learner.ejs') %>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+    
+  
+    
+ 
+
+
+    
+
+</body>
+</html>

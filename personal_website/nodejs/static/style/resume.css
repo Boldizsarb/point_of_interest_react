@@ -1,0 +1,157 @@
+*{
+    font-family: Blippo, fantasy;
+    transition: 1s;
+  }
+  h1{
+    text-align: center;
+  }
+  #containerimg{
+    padding: 2vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8vh;
+    
+  }
+  #name{
+    border-left: solid black;
+  }
+  #h1name{
+    padding: 1vh;
+  }
+  
+  /*img zoom out*/
+  #imgdiv{
+    
+  }
+   .img1 {
+   width: 23vh;
+   border-radius: 50px;
+   padding-left: 2vh;
+   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+   -webkit-transition: all 1s ease;
+  }
+  .img1:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+  }
+
+
+
+  /*img zoom out*/
+  .icondiv{
+    padding-left: 3vh;
+  }
+  .icon{
+    size: 2vh;
+    width: 4vh;
+    padding: 1vh;
+    transition: 1s;
+  }
+  .icon:hover{
+    transform: scale(1.8);
+    transition: 200ms;
+  }
+  hr{
+    border:1px solid black;
+  }
+
+/* Demo purposes only */
+html {
+  height: 100%;
+  background-image: url(../pictures/wp2610903-hd-plain-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+  overflow: scroll;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+    padding-top: 5vh;
+}
+header{
+    position: absolute; /* The right corner for the mail to work*/ 
+  }
+  #home{ /*Fading in */ 
+    width: 5vh;
+    padding: 1.5vh;
+    opacity: 0; /* initially the element is invisible*/ 
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards; 
+    transition: 1s; /* makes it smooth on the way back*/
+    
+  }
+
+  #home:hover{
+    transform: scale(1.8);
+    transition: 200ms ease-in-out;
+  }
+  
+  #email{
+    width: 5vh;
+    position: absolute; /*the right corner for the email to work*/
+    right: 1.5vh;
+    top: 1.5vh;
+    opacity: 0; /* initially the element is invisible*/ 
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  #email:hover{
+    transform: scale(1.8);
+    transition: 200ms ease-in-out;
+  }
+
+#cont{ /*Fading in */ 
+  
+  opacity: 0; /* initially the element is invisible*/ 
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards; 
+}
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

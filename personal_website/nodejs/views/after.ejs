@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        
+        <h1>Massage has been sent!</h1>
+    <div class="paradiv">
+        <p class="getback" id="top">I will get back to you, </p>
+        <p class="getback" id="top1">as soon as I noticed your email,</p>
+        <p class="getback" id="top2"> which usually means a day.</p>
+        <p class="getback" id="low">In the meantime, </p>
+        <p class="getback" id="low2">check me out on social media ;)</p>
+    </div>
+        <div class="frame__links">
+            <a href="https://www.facebook.com/boldi.banfia" target="_blank"><img src="pictures/facebook.png" alt="facebook icon" class="icon"></a>
+            <a href="https://twitter.com/boyszy3" target="_blank"><img src="pictures/twitter.png" alt="Twitter icon" class="icon"></a>
+            <a href="https://www.linkedin.com/in/banfia-boldizsar-b1a1971bb/" target="_blank"><img src="pictures/linkedin.png" alt="icon of linkedin" class="icon"></a>
+        </div>
+        <div>
+            <p class="getback" id="back">Or Go Back</p>
+        </div>
+        <div class="home">
+            <a href="/"><img src="pictures/home.png" alt="Home icon" class="img" id="homeicon"></a>
+        </div>         
+
+    </main>
+
+
+
+
+</body>
+<script>
+
+
+</script>
+<style>
+html{
+	height: 100%;
+	background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-image: url(../pictures/wp2610903-hd-plain-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+}
+.paradiv{
+    width: 100%;
+}
+
+body {
+	margin: 0;
+}
+/*Type writer*/
+h1 {
+  border-right: solid 3px rgba(216, 172, 14, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 3vh;
+  color: rgba(10, 9, 9, 0.7);
+}
+
+/* Animation */
+h1 {
+  animation: animated-text 3s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+#top {
+  border-right: solid 3px rgba(216, 172, 14, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 2vh;
+  color: rgba(10, 9, 9, 0.7);
+}
+
+/* Animation */
+#top {
+  animation: animated-text 3s steps(29,end) 3s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+#top1 {
+  border-right: solid 3px rgba(216, 172, 14, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 2vh;
+  color: rgba(10, 9, 9, 0.7);
+}
+
+/* Animation */
+#top1 {
+  animation: animated-text 3s steps(29,end) 6s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+#top2 {
+  border-right: solid 3px rgba(216, 172, 14, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 2vh;
+  color: rgba(10, 9, 9, 0.7);
+  
+}
+
+/* Animation */
+#top2 {
+    animation: animated-text 3s steps(29,end) 9s 1 normal both,
+                animated-cursor 600ms steps(29,end) infinite;
+            }
+
+#low{
+  border-right: solid 3px rgba(216, 172, 14, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 2vh;
+  color: rgba(10, 9, 9, 0.7);
+}
+
+/* Animation */
+#low {
+  animation: animated-text 3s steps(29,end) 12s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+#low2{
+  border-right: solid 3px rgba(216, 172, 14, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 2vh;
+  color: rgba(10, 9, 9, 0.7);
+}
+#low2 {
+  animation: animated-text 3s steps(29,end) 15s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+#back{
+  border-right: solid 3px rgba(225, 122, 12, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 2vh;
+  color: rgba(10, 9, 9, 0.7);
+}
+#back {
+  animation: animated-text 3s steps(29,end) 17s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(234, 156, 12, 0.75);}
+  to{border-right-color: transparent;}
+}
+
+.getback{
+    text-align: center;
+    
+}
+#top{
+    padding-top: 3vh;
+}
+h1{
+    text-align: center;
+    padding-top: 15vh;
+    
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+
+.frame__links{
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    flex-wrap: wrap;
+}
+.icon{
+    width: 3vh;
+    margin: 6px;
+    
+}
+.img {
+  
+  padding-top: 10vh;
+  width: 10vh;
+}
+.img:hover, .icon:hover{
+    transform: scale(1.5);
+	transition: 200ms;
+    
+}
+.frame__links, .home{
+     opacity: 0;/*with this, it will not  */
+}
+.frame__links {
+    
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  animation-delay: 16s;
+  animation-fill-mode: forwards; /*makes it stay after the animation*/ 
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.home{
+      
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  animation-delay: 18s;
+  animation-fill-mode: forwards; /*makes it stay after the animation*/ 
+}
+
+
+
+</style>
+</html>

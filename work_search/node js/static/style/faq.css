@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+body{
+	background: #1E1F25;
+}
+#demo{
+    color: white;
+}
+.ul{ /* Second nab bar*/
+    display: flex;
+	width: 100%;
+	height: 80vh;
+	margin: auto;
+	max-width: 100%;
+	justify-content: center;
+	text-align: center;
+    
+
+}
+.li {
+	padding: 1rem  4rem 1.15rem;
+  
+  cursor: pointer;
+  color: #ebebeb;
+	min-width: 80px;
+	margin: auto;
+    display: inline-block;
+   
+}
+
+.li:hover {
+    box-shadow: rgba(232, 224, 224, 0.3) 0px 19px 38px, rgba(100, 90, 90, 0.22) 0px 15px 12px;
+  background-size: 100% 100%;
+  border-radius: 15px;
+  color: #bf7e3d;
+  animation: spring 300ms ease-out;
+  
+	font-weight: bold;
+}
+.li:active {
+  transform: translateY(4px);
+}
+#nav2{
+    text-align: center;
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+#fuck{
+  display: none;
+}
+

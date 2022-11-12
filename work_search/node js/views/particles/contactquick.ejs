@@ -1,0 +1,16 @@
+<link rel="stylesheet" type="text/css" href="/static/style/contactquick.css">
+
+<form action="https://formsubmit.co/keletvalami@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Wheelsify!">
+    <label for="name">Name:</label>
+    <input type="text" name="name" placeholder="Enter your name" required>
+    <br><br>
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" placeholder="Enter your email adress." required>
+    <!--The value is temporary!-->
+    <input type="hidden" name="_next" value="http://localhost:3000/thankyou">
+    <br><br>
+    <textarea name="massage" id="" cols="30" rows="10" placeholder="Enter your massage here"></textarea>
+    <input type="hidden" name="_captcha" value="false"><br>
+    <button type="submit">Send</button>
+</form>
